@@ -1,0 +1,12 @@
+name = "Material Design"
+license = "MIT"
+licenselink = "https://github.com/.../.../LICENSE.md"
+description = "Material Design theme"
+homepage = "http://siteforthistheme.com/"
+tags = ["blog"]
+features = ["blog", ""]
+min_version = 0.13
+
+[author]
+  name = "pdevty"
+  homepage = ""
