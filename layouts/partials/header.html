@@ -8,7 +8,11 @@
   <link href="{{.Site.BaseUrl}}css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">
   <style type="text/css">
+  {{if .Site.Params.footerCover}}
     footer.page-footer{background-image: url({{.Site.BaseUrl}}{{.Site.Params.footerCover}});}
+  {{else}}
+    footer.page-footer{background-image: url({{.Site.BaseUrl}}images/default.png);}
+  {{end}}
   </style>
 </head>
 <body>
@@ -33,5 +37,11 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="{{.Site.BaseUrl}}{{.Site.Params.headerCover}}"></div>
+    <div class="parallax">
+    {{if .Site.Params.headerCover}}
+      <img src="{{.Site.BaseUrl}}{{.Site.Params.headerCover}}">
+    {{else}}
+      <img src="{{.Site.BaseUrl}}images/default.png">
+    {{end}}
+    </div>
   </div>

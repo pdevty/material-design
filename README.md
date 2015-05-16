@@ -5,10 +5,10 @@ Material-Design is a material design theme for [Hugo](http://gohugo.io/).
 ## Features
 
 - Material Design
-- Google Analytics
+- Google Analytics (optional)
 - Pagination
-- Disqus
-- Social links (Twitter, Facebook, GitHub)
+- Disqus (optional)
+- Twitter, Facebook, GitHub links (optional)
 - Tags
 - Categories
 - Highlighting source code
@@ -21,9 +21,15 @@ $ cd themes
 $ git clone https://github.com/pdevty/material-design
 ```
 
+## Usage
+
+```shell
+$ hugo server -t material-design -w -D
+```
+
 ## Configuration
 
-`config.toml`
+config.toml
 
 ```toml
 theme="material-design"
@@ -32,23 +38,31 @@ languageCode = "en-us"
 title = "Your Site Title"
 MetaDataFormat = "toml"
 paginate = 9
-disqusShortname = "Your Disqus Name"
+disqusShortname = "Your Disqus Name" # optional
 copyright = "© 2015 Copyright Text"
 
 [params]
   description = "Your Site Description"
-  twitter = "Your Twitter Name"
-  github = "Your Github Name"
-  facebook = "Your facebook Name"
-  headerCover = "images/default.png"
-  footerCover = "images/default.png"
-  googleAnalyticsUserID = "Your Analytics User Id"
+  twitter = "Your Twitter Name" # optional
+  github = "Your Github Name" # optional
+  facebook = "Your facebook Name" # optional
+  headerCover = "images/headerCover.png" # optional
+  footerCover = "images/footerCover.png" # optional
+  googleAnalyticsUserID = "Your Analytics User Id" # optional
 ```
 
-## Usage
+content file
 
-```shell
-$ hugo server -t material-design -w -D
+```toml
++++
+Categories = ["material","desgin"]
+Tags = ["golang","development"]
+date = "2015-05-16"
+title = "About Hugo"
+
++++
+
+content here
 ```
 
 ## Contributing
