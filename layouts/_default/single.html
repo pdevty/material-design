@@ -23,6 +23,9 @@
               {{ end }}
             {{end}}
           </p>
+          {{ with .Site.DisqusShortname }}
+            {{ partial "disqus.html" . }}
+          {{ end }}
         </div>
       </div>
     </div>
@@ -44,10 +47,6 @@
       {{end}}
       </div>
     </div>
-
-    {{ with .Site.DisqusShortname }}
-      {{ partial "disqus.html" . }}
-    {{ end }}
 
   </div>
 </div>
