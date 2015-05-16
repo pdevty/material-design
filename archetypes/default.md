@@ -1,5 +1,4 @@
 +++
-Description = ""
 Tags = []
 Categories = []
 +++

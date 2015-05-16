@@ -11,6 +11,7 @@ Material-Design is a material design theme for [Hugo](http://gohugo.io/).
 - Twitter, Facebook, GitHub links (optional)
 - Tags
 - Categories
+- Cover image (optional)
 - Highlighting source code
 
 ## Installation
@@ -37,7 +38,7 @@ baseurl = "Your Site URL"
 languageCode = "en-us"
 title = "Your Site Title"
 MetaDataFormat = "toml"
-paginate = 9
+paginate = 9 # To specify a multiple of 3
 disqusShortname = "Your Disqus Name" # optional
 copyright = "© 2015 Copyright Text"
 
@@ -49,14 +50,17 @@ copyright = "© 2015 Copyright Text"
   headerCover = "images/headerCover.png" # optional
   footerCover = "images/footerCover.png" # optional
   googleAnalyticsUserID = "Your Analytics User Id" # optional
+
+[permalinks]
+  post = "/:year/:month/:day/:title/" # optional
 ```
 
 content file
 
 ```toml
 +++
-Categories = ["material","desgin"]
-Tags = ["golang","development"]
+Categories = ["material","desgin"] # optional
+Tags = ["golang","development"] # optional
 date = "2015-05-16"
 title = "About Hugo"
 
