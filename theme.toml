@@ -1,13 +1,13 @@
 name = "Material Design"
 license = "MIT"
 licenselink = "https://github.com/pdevty/material-design/blob/master/LICENSE.md"
-description = "Material Design theme"
+description = "Simple Material Design theme"
 homepage = "https://github.com/pdevty/material-design"
 tags = ["blog"]
-features = ["Material Design","Google Analytics","Pagination",
+features = ["Simple Material Design","Google Analytics","Pagination",
 "Disqus","Tags","Categories","Highlighting source code","Cover image","Social links"]
 min_version = 0.13
 
 [author]
   name = "pdevty"
-  homepage = "https://pdevty.github.io/blog/"
+  homepage = "http://pdevty.github.io/blog/"
