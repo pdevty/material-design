@@ -2,6 +2,8 @@
 
 Material-Design is a material design theme for [Hugo](http://gohugo.io/).
 
+![](https://github.com/pdevty/material-design/blob/master/images/tn.png)
+
 ## Features
 
 - Material Design
