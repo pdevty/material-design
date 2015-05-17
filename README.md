@@ -1,12 +1,14 @@
 # Material-Design
 
-Material-Design is a material design theme for [Hugo](http://gohugo.io/).
+Material-Design is a simple material design theme for [Hugo](http://gohugo.io/).
 
 ![](https://github.com/pdevty/material-design/blob/master/images/tn.png)
 
+demo : [http://pdevty.github.io/blog/](http://pdevty.github.io/blog/)
+
 ## Features
 
-- Material Design
+- Simple Material Design
 - Google Analytics (optional)
 - Pagination
 - Disqus (optional)
@@ -55,20 +57,6 @@ copyright = "© 2015 Copyright Text"
 
 [permalinks]
   post = "/:year/:month/:day/:title/" # optional
-```
-
-content file
-
-```toml
-+++
-Categories = ["material","desgin"] # optional
-Tags = ["golang","development"] # optional
-date = "2015-05-16"
-title = "About Hugo"
-
-+++
-
-content here
 ```
 
 ## Contributing
