@@ -1,4 +1,4 @@
-{{ $baseurl := .Site.BaseUrl }}
+{{ $baseurl := .Site.BaseURL }}
 <div class="row">
 {{range $index, $page := .Paginator.Pages}}
   {{ if and (modBool $index 3) (ne 0 $index) }}
