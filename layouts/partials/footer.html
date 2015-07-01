@@ -2,13 +2,14 @@
     <div class="footer-copyright">
       <div class="container">
       {{.Site.Copyright}}
+      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
       </div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="{{.Site.BaseURL}}/js/materialize.min.js"></script>
   <script src="{{.Site.BaseURL}}/js/init.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   {{with  .Site.Params.googleAnalyticsUserID }}
   <script>

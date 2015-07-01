@@ -8,11 +8,11 @@ demo : [http://pdevty.github.io/blog/](http://pdevty.github.io/blog/)
 
 ## Features
 
-- Simple Material Design
+- Simple Material Design by [Materialize](http://materializecss.com/)
 - Google Analytics (optional)
 - Pagination
 - Disqus (optional)
-- Twitter, Facebook, GitHub, Google+ links (optional)
+- Twitter, Facebook, GitHub, Google+, LinkedIn links (optional)
 - Tags
 - Categories
 - Cover image (optional)
@@ -47,11 +47,12 @@ disqusShortname = "Your Disqus Name" # optional
 copyright = "© 2015 Copyright Text"
 
 [params]
-  description = "Your Site Description"
+  description = "Your Site Description" # optional
   twitter = "Your Twitter Name" # optional
   github = "Your Github Name" # optional
   facebook = "Your facebook Name" # optional
   gplus = "Your Google+ profile name" # optional
+  linkedin = "Your LinkedIn Name" # optional
   headerCover = "images/headerCover.png" # optional
   footerCover = "images/footerCover.png" # optional
   googleAnalyticsUserID = "Your Analytics User Id" # optional
