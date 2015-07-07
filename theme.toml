@@ -6,7 +6,7 @@ homepage = "https://github.com/pdevty/material-design"
 tags = ["blog"]
 features = ["Simple Material Design","Google Analytics","Pagination",
 "Disqus","Tags","Categories","Highlighting source code","Cover image","Social links"]
-min_version = 0.13
+min_version = 0.14
 
 [author]
   name = "pdevty"
