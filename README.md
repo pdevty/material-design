@@ -12,7 +12,7 @@ demo : [http://pdevty.github.io/blog/](http://pdevty.github.io/blog/)
 - Google Analytics (optional)
 - Pagination
 - Disqus (optional)
-- Twitter, Facebook, GitHub, Google+, LinkedIn links (optional)
+- Twitter, Facebook, GitHub, Google+, LinkedIn, Hatena Bookmark links (optional)
 - Tags
 - Categories
 - Cover image (optional)
@@ -56,6 +56,7 @@ copyright = "© 2015 Copyright Text"
   headerCover = "images/headerCover.png" # optional
   footerCover = "images/footerCover.png" # optional
   googleAnalyticsUserID = "Your Analytics User Id" # optional
+  hatenaBookmark = true
 
 [permalinks]
   post = "/:year/:month/:day/:title/" # optional
