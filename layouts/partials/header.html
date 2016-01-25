@@ -46,6 +46,9 @@
         {{if .Site.Params.linkedin}}
           <a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/linkedin-dreamstale45.png"></a>
         {{end}}
+        {{if .Site.Params.hatenaBookmark}}
+          <a href="http://b.hatena.ne.jp/entry/{{.Permalink}}"><img src="{{.Site.BaseURL}}/images/hatenaBookmark.png"></a>
+        {{end}}
           <a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/feed-dreamstale27.png"></a>
         </div>
       </div>
