@@ -12,7 +12,7 @@ demo : [http://pdevty.github.io/blog/](http://pdevty.github.io/blog/)
 - Google Analytics (optional)
 - Pagination
 - Disqus (optional)
-- Twitter, Facebook, GitHub, Google+, LinkedIn links (optional)
+- Twitter, Facebook, GitHub, Google+, LinkedIn, Flickr links (optional)
 - Tags
 - Categories
 - Cover image (optional)
@@ -53,6 +53,7 @@ copyright = "© 2015 Copyright Text"
   facebook = "Your facebook Name" # optional
   gplus = "Your Google+ profile name" # optional
   linkedin = "Your LinkedIn Name" # optional
+  flickr = "Your Flickr Name" # optional
   headerCover = "images/headerCover.png" # optional
   footerCover = "images/footerCover.png" # optional
   googleAnalyticsUserID = "Your Analytics User Id" # optional
