@@ -31,6 +31,9 @@
           <h5 class="header col s12 light">{{.Site.Params.description}}</h5>
         </div>
         <div class="row center">
+        {{if .Site.Params.gitlab}}
+          <a href="https://gitlab.com/u/{{ .Site.Params.gitlab }}"><img src="{{.Site.BaseURL}}/images/gitlab.png"></a>
+        {{end}}
         {{if .Site.Params.github}}
           <a href="https://github.com/{{ .Site.Params.github }}"><img src="{{.Site.BaseURL}}/images/github2-dreamstale35.png"></a>
         {{end}}
