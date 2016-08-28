@@ -46,3 +46,9 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.card-panel img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
