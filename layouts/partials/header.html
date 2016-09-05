@@ -3,6 +3,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  {{if .Site.Params.twitterSummary}}                                            
+      <meta name="twitter:card" content="summary" />                             
+      <meta name="twitter:site" content="@{{.Site.Params.twitter}}" />       
+      <meta name="twitter:title" content="{{.Site.Params.twitterTitle}}" />      
+      <meta name="twitter:description" content="{{.Site.Params.twitterDescription}}" />
+      <meta name="twitter:image" content="{{.Site.Params.twitterImage}}" />      
+  {{end}}
   <title>{{ .Title }}</title>
   <link href="{{.Site.BaseURL}}/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{.Site.BaseURL}}/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>

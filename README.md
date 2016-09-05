@@ -49,6 +49,10 @@ copyright = "© 2015 Copyright Text"
 [params]
   description = "Your Site Description" # optional
   twitter = "Your Twitter Name" # optional
+  twitterSummary = true|false # optional
+  twitterTitle = "Title for twitter summary card" # optional
+  twitterDescription = "Desc for tiwtter summary card" # optional
+  twitterImage = "URL to image for twitter summary card" # option
   gitlab = "Your Gitlab Name" # optional
   github = "Your Github Name" # optional
   facebook = "Your facebook Name" # optional
